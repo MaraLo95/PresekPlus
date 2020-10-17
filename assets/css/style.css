@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
+
 body {
   background: #fff;
   color: #666666;
@@ -123,23 +125,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }*/
 
+
+
 #header #logo img {
   width: 90px;
   height: 90px;
-  margin-top: 0px;
-  margin-left: 0px;
+  
 }
 
 @media (max-width: 768px) {
-  /*#header #logo h1 {
-    font-size: 26px;
-  }*/
   #header #logo img {
-    max-height: 40px;
-    max-width: 40px;
-    margin-top: 0px;
+    max-height: 70px;
+    max-width: 70px;
   }
 }
+
 
 #header.header-transparent {
   background: transparent;
@@ -194,12 +194,22 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 30px 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 38px;
+  font-weight: 400;
   line-height: 56px;
-  text-transform: uppercase;
   color: #fff;
 }
+
+#naslov {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #fff;
+  font-family: 'Caveat Brush', cursive;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
 
 @media (max-width: 768px) {
   #hero h1 {
@@ -212,6 +222,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #eee;
   margin-bottom: 50px;
   font-size: 24px;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
@@ -241,6 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #2dc997;
   border: 2px solid #2dc997;
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -501,7 +513,7 @@ section {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #F1F3F3;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -511,7 +523,7 @@ section {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #999;
+  color: white;
   margin-top: 40px;
 }
 
@@ -572,21 +584,23 @@ section {
 /* About Us Section
 --------------------------------*/
 #about {
-  background: #fff;
+  background: rgba(52, 59, 64, 0.9);
   padding: 80px 0;
 }
 
 #about .about-container .background {
   min-height: 300px;
-  background: url(../img/about.jpg) center;
+  background: url(../img/about2.jpg);
   margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 #about .about-container .content {
-  background: #fff;
+  
 }
 
 #about .about-container .title {
-  color: #333;
+  color: #F1F3F3;
   font-weight: 700;
   font-size: 32px;
 }
@@ -594,26 +608,35 @@ section {
 @media (max-width: 768px) {
   #about .about-container .title {
     padding-top: 15px;
+
   }
 }
 
 #about .about-container p {
   line-height: 26px;
+  color: white;
+
 }
+
+#about .about-container .content p {
+  text-align: justify;
+  padding-right: 25px;
+    }
 
 #about .about-container p:last-child {
   margin-bottom: 0;
+  color: white;
 }
 
 #about .about-container .icon-box {
-  background: #fff;
+  
   background-size: cover;
   padding: 0 0 30px 0;
 }
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: rgba(52, 59, 64, 0.9);;
   width: 64px;
   height: 64px;
   display: flex;
@@ -626,7 +649,7 @@ section {
 }
 
 #about .about-container .icon-box .icon i {
-  color: #2dc997;
+  color: white;
   font-size: 24px;
 }
 
@@ -636,10 +659,11 @@ section {
   margin-bottom: 5px;
   font-size: 18px;
   text-transform: uppercase;
+  color: white;
 }
 
 #about .about-container .icon-box .title a {
-  color: #111;
+  color: F1F3F3;
 }
 
 #about .about-container .icon-box .description {
@@ -651,21 +675,15 @@ section {
 /* Facts Section
 --------------------------------*/
 #facts {
-  background: #f7f7f7;
+  background: rgba(52, 59, 64, 0.9);
   padding: 80px 0 60px 0;
+  color: #F1F3F3;
 }
 
 #facts .counters span {
   font-size: 48px;
   display: block;
   color: #2dc997;
-}
-
-#facts .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
 }
 
 /* Services Section
@@ -684,6 +702,18 @@ section {
   height: 200px;
   position: relative;
   background: #fafafa;
+}
+
+@media (max-width: 768px) {
+  #services .box {
+  padding: 50px 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  height: 80%;
+  position: relative;
+  background: #fafafa;
+  }
 }
 
 #services .icon {
@@ -796,7 +826,7 @@ section {
 /* Portfolio Section
 --------------------------------*/
 #portfolio {
-  background: #f7f7f7;
+  background: rgba(52, 59, 64, 0.9);;
   padding: 80px 0;
 }
 
@@ -834,13 +864,23 @@ section {
 #portfolio .portfolio-item {
   margin-bottom: 30px;
   overflow: hidden;
+  border-radius: 5%;
+}
+
+#portfolio .portfolio-item .cover-portfolio img {
+  width: 100%;
 }
 
 #portfolio .portfolio-item img {
   position: relative;
+  height: 300px;
   top: 0;
   transition: all 0.6s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 5px;
+  width: 100%;
 }
+
+
 
 #portfolio .portfolio-item .portfolio-info {
   opacity: 0;
@@ -979,58 +1019,6 @@ section {
   }
 }
 
-
-/* Team Section
---------------------------------*/
-#team {
-  background: #fff;
-  padding: 80px 0 60px 0;
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-#team .member .pic {
-  margin-bottom: 15px;
-  overflow: hidden;
-  height: 260px;
-}
-
-#team .member .pic img {
-  max-width: 100%;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  color: #b3b3b3;
-}
-
-#team .member .social a:hover {
-  color: #2dc997;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
-
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -1039,7 +1027,7 @@ section {
 }
 
 #contact #google-map {
-  height: 300px;
+  height: 400px;
   margin-bottom: 20px;
 }
 
@@ -1060,13 +1048,46 @@ section {
   font-size: 14px;
 }
 
+@media (max-width: 768px) {
+#contact .info p {
+  padding: 0 0 10px 0px;
+  margin-bottom: 20px;
+  line-height: 22px;
+  font-size: 14px;
+}
+}
+
 #contact .info .email p {
   padding-top: 5px;
 }
 
+@media (max-width: 768px) {
+  #info-social {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  #contact .info i {
+    font-size: 32px;
+    color: #2dc997;
+    float: none;
+  }
+}
+
+
 #contact .social-links {
   padding-bottom: 20px;
+  margin-left: 40px; !important 
 }
+
+
+@media (max-width: 768px) {
+  #contact .social-links {
+    padding-bottom: 20px;
+    margin-left: 0px; !important
+    }
+  } 
 
 #contact .social-links a {
   font-size: 18px;
@@ -1147,7 +1168,7 @@ section {
   background-color: #2dc997;
 }
 
-#contact .php-email-form button[type="submit"] {
+#contact .php-email-form .btnsubmit {
   background: #2dc997;
   border: 0;
   padding: 10px 24px;
@@ -1155,7 +1176,7 @@ section {
   transition: 0.4s;
 }
 
-#contact .php-email-form button[type="submit"]:hover {
+#contact .php-email-form .btnsubmit:hover {
   background: #51d8ad;
 }
 

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,10 +18,13 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -45,13 +49,13 @@
           <li><a href="#about">O Nama</a></li>
           <li class="menu-has-children"><a href="#services">Usluge</a>
             <ul>
-              <li><a href="#">Projektovanje</a></li>
-              <li><a href="#">Urbanizam</a></li>
-              <li><a href="#">Izrada</a></li>
-              <li><a href="#">Ishodovanje</a></li>
+              <li><a href="services/projektovanje/projektovanje.html">Projektovanje</a></li>
+              <li><a href="services/urbanizam/urbanizam.html">Urbanizam</a></li>
+              <li><a href="services/izrada/izrada.html">Izrada</a></li>
+              <li><a href="services/ishodovanje/ishodovanje.html">Ishodovanje</a></li>
             </ul>
           </li>
-          <li><a href="#portfolio">Reference</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Kontakt</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
@@ -61,29 +65,32 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Dobrodošli u <b>Presek Plus</b></h1>
-      <h2>Stvaramo zajedno bolju budućnost!</h2>
-      <a href="#services" class="btn-get-started">Usluge</a>
+      <h1>Dobrodošli na zvaničnu stranicu Kompanije</h1><p id="naslov">Presek Plus</p>
+      <h2>Stvaramo zajedno bolju budućnost!</h2> 
+      <div class="container justify-content-center">
+      <a href="#services" class="btn-get-started" id="usluge-btn">Usluge</a>
+      <a href="#c-f" class="btn-get-started">Kontaktirajte nas</a>
     </div>
+  </div>
   </section><!-- End Hero Section -->
 
-  <main id="main">
+  
 
     <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
         <div class="row about-container">
 
-          <div class="col-lg-6 content order-lg-1 order-2">
+          <div class="col-lg-7 content order-lg-1 order-2">
             <h2 class="title">O Kompaniji Presek Plus</h2>
             <p>
               Kompanija Presek Plus bavi se izradom svih vrsta projekata, organizacijom i koordinacijom dobijanja dozvola iz oblasti urbanizma i građenja. Možemo vam ponuditi usluge projektovanja, inženjeringa i izrade projektne, tehničke dokumentacije neophodne za pripremu i izgradnju objekata stambenog, poslovnog i privrednog tipa. 
               <br>
               <br>
-              Presek Plus uspešno posluje na tržištu od 2007. godine, kada je osnovana pod nazivom Presek. Dugogodišnje iskustvo i tim stručnjaka rezultirali su brojnim uspešnim projektima, sa velikim brojem zadovoljnih klijenata. Od 2019. godine firma nosi novi naziv Presek Plus.
+              Presek Plus uspešno posluje na tržištu od 2007. godine, kada je osnovana pod nazivom Presek. Dugogodišnje iskustvo i tim stručnjaka rezultirali su brojnim uspešnim projektima, sa velikim brojem zadovoljnih klijenata. Od 2019. godine firma nosi novi naziv Presek Plus.</p>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <div class="icon"><i class="fa fa-shopping-bag"></i></div>
+              <div class="icon"><i class="fas fa-rocket"></i></div>
               <h4 class="title"><a href="">Misija</a></h4>
               <p class="description">Novo preduzeće osnovano je kao rezultat težnje da se nastavi sa razvojem, usvajanjem novih tehnologija u radu i osvajanjem novih segmanata tržišta.</p>
             </div>
@@ -95,14 +102,14 @@
             </div>
 
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <div class="icon"><i class="fa fa-bar-chart"></i></div>
+              <div class="icon"><i class="fas fa-trophy"></i></div>
               <h4 class="title"><a href="">Ciljevi</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
 
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
+          <div class="col-lg-5 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
         </div>
 
       </div>
@@ -113,7 +120,7 @@
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h3 class="section-title">Rezultati</h3>
-          <p class="section-description">Kompanija Presek Plus u svom dugogodišnjem prisustvu na tržištu beleži veliki broj uspešno završenih projekata</p>
+          <h6 style="text-align: center;">Kompanija Presek Plus u svom dugogodišnjem prisustvu na tržištu beleži veliki broj uspešno završenih projekata</h6>
         </div>
         <div class="row counters">
 
@@ -141,35 +148,35 @@
     <section id="services">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">Usluge</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title" style="color: black">Usluge</h3>
+         <!--  <p class="section-description">Presek Plus pruža sledeće vrste usluga</p> -->
         </div>
         <div class="row">
           <div class="col-lg-6 col-md-6" data-aos="zoom-in">
             <div class="box">
-              <div class="icon"><a href=""><i class="fas fa-ruler-combined"></i></a></div>
-              <h4 class="title"><a href="">Projektovanje</a></h4>
+              <div class="icon"><a href="services/projektovanje/projektovanje.html"><i class="fas fa-drafting-compass"></i></a></div>
+              <h4 class="title"><a href="services/projektovanje/projektovanje.html">Projektovanje</a></h4>
               <p class="description">Možemo vam izraditi projekte i svu neophodnu tehničku dokumentaciju kako za projekte eksterijera tako i za projekte enterijera.</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6" data-aos="zoom-in">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
-              <h4 class="title"><a href="">Urbanizam</a></h4>
+              <div class="icon"><a href=""><a href="services/urbanizam/urbanizam.html"></a><i class="fas fa-ruler-combined"></i></a></div>
+              <h4 class="title"><a href="services/urbanizam/urbanizam.html">Urbanizam</a></h4>
               <p class="description">Urbanistički projekat se izrađuje kada je neophodna podela jedne ili više katastarskih parcela ili njihovo spajanje u cilju formiranja građevinskih parcela.</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6" data-aos="zoom-in">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-paper-plane"></i></a></div>
-              <h4 class="title"><a href="">Izrada</a></h4>
+              <div class="icon"><a href="services/izrada/izrada.html"><i class="fas fa-stamp"></i></a></div>
+              <h4 class="title"><a href="services/izrada/izrada.html">Izrada</a></h4>
               <p class="description">Svi projekti se u potpunosti izrađuju po važećim propisima i zakonima Republike Srbije i svi su pokriveni validnom licencom.</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6" data-aos="zoom-in">
             <div class="box">
-              <div class="icon"><a href=""><i class="fa fa-shopping-bag"></i></a></div>
-              <h4 class="title"><a href="">Ishodovanje</a></h4>
+              <div class="icon"><a href="services/ishodovanje/ishodovanje.html"><i class="fas fa-pencil-ruler"></i></a></div>
+              <h4 class="title"><a href="services/ishodovanje/ishodovanje.html">Ishodovanje</a></h4>
               <p class="description">Projektovanje arhitektonskih objekata, izrada potrebne dokumentacije za ishodovanje (dobijanje) građevinske i upotrebne dozvole, sa svim međufazama, od idejnog rešenja do izvođačkog projekta, bilo da su u pitanju novi objekti, adaptacije, rekonstrukcije ili dogradnje. </p>
             </div>
           </div>
@@ -183,11 +190,11 @@
       <div class="container">
         <div class="row" data-aos="zoom-in">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="cta-title">Ukoliko imaš neko pitanje slobodno nas kontaktiraj!</h3>
-            <p class="cta-text"> Uvek smo tu za Vaše upite. Pišite nam!</p>
+            <h3 class="cta-title">Ukoliko imate neko pitanje slobodno nas kontaktirajte!</h3>
+            <p class="cta-text"> Uvek smo tu za Vaše upite. Pišite nam.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#contact">Pošalji upit</a>
+            <a class="cta-btn align-middle" href="#c-f">Pošalji upit</a>
           </div>
         </div>
 
@@ -204,6 +211,17 @@
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
+           <div class="col-lg-4 col-md-6 portfolio-item filter-app cover-portfolio">
+            <img src="assets/img/portfolio/sljubise.jpg" class="img-fluid" alt="Stambena jedinica, Stjepana Ljubise 31">
+            <div class="portfolio-info">
+             <h4>Stambena jedinica SU + P + 4 + PK</h4>
+              <p>Stjepana Ljubiše 31, Zvezdara</p>
+              <a href="assets/img/portfolio/sljubise.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/sazonova.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -215,7 +233,6 @@
           </div>
 
          
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/milanarakica.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -236,15 +253,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/sljubise.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-             <h4>Stambena jedinica SU + P + 4 + PK</h4>
-              <p>Stjepana Ljubiše 31, Zvezdara</p>
-              <a href="assets/img/portfolio/sljubise.jpg" data-gall="portfolioGallery" class="venobox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
+         
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <img src="assets/img/portfolio/farmacija.jpg" class="img-fluid" alt="">
@@ -275,149 +284,74 @@
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Portfolio Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team">
-      <div class="container" data-aos="fade-up">
-        <div class="section-header">
-          <h3 class="section-title">Tim</h3>
-          <p class="section-description">Nas tim cine Marija, Mina, Nikola i Vesna.</p>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/team-1.jpg" alt=""></div>
-              <h4>Nikola Markovic</h4>
-              <span>Chief Executive Officer</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team-2.jpg" alt=""></div>
-              <h4>Sara Jovanovic</h4>
-              <span>Product Manager</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team-3.jpg" alt=""></div>
-              <h4>Vesna Markovic</h4>
-              <span>CTO</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href=""><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="pic"><img src="assets/img/team-4.jpg" alt=""></div>
-              <h4>Miki Jevremovic</h4>
-              <span>Accountant</span>
-              <div class="social">
-                <a href=""><i class="fa fa-twitter"></i></a>
-                <a href="https://www.facebook.com/pages/category/Company/PB-Presek-341226745966376/"><i class="fa fa-facebook"></i></a>
-                <a href=""><i class="fa fa-google-plus"></i></a>
-                <a href=""><i class="fa fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact">
       <div class="container">
         <div class="section-header">
-          <h3 class="section-title">Contact</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Kontakt</h3>
         </div>
       </div>
 
       <!-- Uncomment below if you wan to use dynamic maps -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe>
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22864.11283411948!2d-73.96468908098944!3d40.630720240038435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbg!4v1540447494452" width="100%" height="380" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+
+      <div class="mapouter"><div class="gmap_canvas"><iframe width=100% height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Susacka%2027&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embed google maps</a></div><style>.mapouter{position:center;text-align:center;height:500px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:100%;position: center;}</style></div>
 
       <div class="container mt-5">
         <div class="row justify-content-center">
 
-          <div class="col-lg-3 col-md-4">
-
+          <div class="col-lg-3 col-md-4" id="info-social">
             <div class="info">
               <div>
-                <i class="fa fa-map-marker"></i>
+                <i class="fas fa-map-marker-alt"></i>
                 <p>Sušačka 27<br>Voždovac, Beograd</p>
               </div>
 
               <div>
-                <i class="fa fa-envelope"></i>
+                <i class="fas fa-envelope"></i>
                 <p>pbpresek@gmail.com<br>office@presekplus.rs</p>
               </div>
 
               <div>
-                <i class="fa fa-phone"></i>
+                <i class="fas fa-phone-alt"></i>
                  <p>+381 60 16 71 161<br>+381 63 88 48 525<br>+381 65 21 95 256</p>
               </div>
             </div>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="https://www.instagram.com/presekplus/?hl=en" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+             <!--  <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> -->
+              <a href="https://www.facebook.com/marija.eric.mare" class="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/presekplus/?hl=en" class="instagram"><i class="fab fa-instagram"></i></a>
+              <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRmTwsdVkGxQzdNdhxrzcQzNJhLdhBvKlldWpgswKWxjGZFSgzhbcRLVKLFTxZCffGWtjkq" class="google-plus"><i class="fab fa-google-plus"></i></a>
+             <!--  <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a> -->
             </div>
-
           </div>
 
           <div class="col-lg-5 col-md-8">
-            <div class="form">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form" id="c-f">
+              <form action="contact.php" method="POST" role="form" class="php-email-form">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Unesite vaše ime" data-rule="minlen:4" data-msg="Najmanje 4 karaktera" />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Unesite vašu e-mail adresu" data-rule="email" data-msg="Molimo vas unesite ispravnu e-mail adresu" />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Unesite naslov od najmanje 8 karaktera" />
                   <div class="validate"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Poruka"></textarea>
                   <div class="validate"></div>
                 </div>
-                <div class="mb-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
-                <div class="text-center"><button type="submit">Send Message</button></div>
+                <div class="text-center"><button type="submit" class="btnsubmit">Pošalji upit</button></div>
+                
               </form>
             </div>
           </div>
@@ -431,12 +365,6 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-
-      </div>
-    </div>
-
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>Presek Plus 2020</strong>.
@@ -460,6 +388,8 @@
   <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
